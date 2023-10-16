@@ -30,27 +30,26 @@ body{
 .formulario{
     padding: 60px;
     background-color: blue;
-padding-left: 35px;
-display: flex;
-flex-direction: column;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
 
 
 }
 h1{
     font-size: 50px;
-    height: 35px;
+    margin-bottom: 1px;
+    margin-top: 0px;
 }
 
 h2{
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .list{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
     height: -webkit-fill-available;}
 
 .lista{
@@ -63,14 +62,26 @@ h2{
 }
 .inp{
     width: 100%;
-    padding: 18px;
-    margin-bottom: 25px;
+    padding: 17px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.inp:hover{
+    cursor: pointer;
 }
 .boton{
     width: 100%;
-    padding: 18px;
+    padding: 17px;
+    border-radius: 10px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    background-color: hsl(4, 100%, 67%);;
 
-
+}
+.boton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
 }
 .imagen{
     background-color: hsl(4, 100%, 67%);
@@ -85,5 +96,9 @@ h2{
 }
 .espacio{
     display: flex;
+    line-height: 30px;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
