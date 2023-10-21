@@ -31,7 +31,7 @@ body{
 
 
 }
-/*.imagen2{content-visibility: hidden;}*/
+.imagen2{content-visibility: hidden;}
 
 .formulario{
     padding: 60px;
@@ -171,12 +171,15 @@ h4{
    /* .imagen2{content-visibility: visible;}*/
 
     .container {
-        background-color: blue;
+        background-color: hsl(0, 0%, 100%);
         margin-left: 0px;
         margin-right: 0px;
-        margin-top: 0px;
+        margin-top: 25px;
         margin-bottom: 6px;
         border-radius: 0px;
+        max-width: 375px;
+        max-height: unset;
+
 
     }
     .todo{
@@ -184,17 +187,50 @@ h4{
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        margin: 0px;
+
 
     }
 
     .imagen2{
-        /*width: 50vw;*/
+        margin-top: -45px;
+        padding-top: 0px;
+        content-visibility: visible;
     
     }
     .formulario{
         padding: 0px;
         padding-left: 0px;
+        width: 330px;
+        padding-top: 25px;
+        padding-bottom: 35px;
+        display: flex;
+
 
     }
+    body{
+        font-size: 100%;
+
+    }
+    h1{
+        font-size: 240%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .list{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        height: -webkit-fill-available;}
+    
+    .lista{
+        height: 20px;
+    }
+    .espacio{
+        display: flex;
+        line-height: 30px;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+   
 }
