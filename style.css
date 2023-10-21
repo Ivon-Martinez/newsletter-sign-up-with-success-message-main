@@ -31,7 +31,7 @@ body{
 
 
 }
-
+/*.imagen2{content-visibility: hidden;}*/
 
 .formulario{
     padding: 60px;
@@ -163,4 +163,38 @@ h4{
 .img2{
     height: 50px;
 
+}
+
+@media only screen and (max-width: 845px) {
+    .imagen{content-visibility: hidden;
+    }
+   /* .imagen2{content-visibility: visible;}*/
+
+    .container {
+        background-color: blue;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 6px;
+        border-radius: 0px;
+
+    }
+    .todo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0px;
+
+    }
+
+    .imagen2{
+        /*width: 50vw;*/
+    
+    }
+    .formulario{
+        padding: 0px;
+        padding-left: 0px;
+
+    }
 }
